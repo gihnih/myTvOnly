@@ -1,0 +1,55 @@
+name: Validate Playlist
+
+on:
+  push:
+    paths:
+      - 'playlist.m3u'
+  pull_request:
+    paths:
+      - 'playlist.m3u'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check playlist starts with #EXTM3U
+        run: |
+          head -1 playlist.m3u | grep -q "#EXTM3U" || (echo "ERROR: playlist.m3u must start with #EXTM3U" && exit 1)
+          echo "OK: #EXTM3U header found"
+
+      - name: Count channels
+        run: |
+          TV_COUNT=$(grep -c 'group-title="TV Malaysia"' playlist.m3u || true)
+          RADIO_COUNT=$(grep -c 'group-title="Radio Malaysia"' playlist.m3u || true)
+          echo "TV channels: $TV_COUNT"
+          echo "Radio stations: $RADIO_COUNT"
+          echo "Total: $((TV_COUNT + RADIO_COUNT))"
+
+      - name: Check for empty stream URLs
+        run: |
+          # Find EXTINF lines not followed by a URL (skipping #KODIPROP lines)
+          python3 - <<'EOF'
+          import sys
+          lines = open('playlist.m3u').readlines()
+          errors = []
+          i = 0
+          while i < len(lines):
+              line = lines[i].strip()
+              if line.startswith('#EXTINF'):
+                  # skip KODIPROP and EXTVLCOPT lines
+                  j = i + 1
+                  while j < len(lines) and lines[j].strip().startswith('#'):
+                      j += 1
+                  if j >= len(lines) or not lines[j].strip():
+                      errors.append(f"Line {i+1}: EXTINF with no stream URL: {line[:60]}")
+              i += 1
+          if errors:
+              print("ERRORS:")
+              for e in errors:
+                  print(e)
+              sys.exit(1)
+          else:
+              print("OK: All EXTINF entries have stream URLs")
+          EOF
