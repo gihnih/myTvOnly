@@ -13,7 +13,9 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/chunklist_b1096000_slENG.m3u8?id=
 #EXTINF:-1 group-title="TV Malaysia" tvg-id="TV3" tvg-name="TV3" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv3.png",TV3
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"3bc3f0e518aed92e80a98118e5bc2c10":"5fce364fbc4499856597b19a96f44648"}
-https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 group-title="TV Malaysia" tvg-id="TV6" tvg-name="TV6" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv6.png",TV6
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/chunklist_b1096000_slENG.m3u8?id=6
@@ -21,12 +23,16 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/chunklist_b1096000_slENG.m3u8?id=
 #EXTINF:-1 group-title="TV Malaysia" tvg-id="8TV" tvg-name="8TV" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/8tv.png",8TV
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"0cb7980e9d1d8957f9a293ed96342410":"11da1ad368d0cacffe4824b6b35e22b7"}
-https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 group-title="TV Malaysia" tvg-id="TV9" tvg-name="TV9" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv9.png",TV9
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"27828727f0a3a0b4fbc668378ccf8c10":"958e9cb7389e20948de5a542d2729ecf"}
-https://linearjitp-playback.astro.com.my/dash-wv/linear/705/default_primary.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/705/default_primary.mpd|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
 
 #EXTINF:-1 group-title="TV Malaysia" tvg-id="OKEY" tvg-name="Okey TV" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/OkeyTv.png",Okey TV
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/chunklist_b1096000_slENG.m3u8?id=3
@@ -46,7 +52,9 @@ https://edge-sg1.vediostream.com/live/tvikim/chunks.m3u8
 #EXTINF:-1 group-title="TV Malaysia" tvg-id="TVAlhijrah" tvg-name="TV Alhijrah" tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/TvAlhijrah.png",TV Alhijrah
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"41a42fb5af457501c11bb9b158d5a110":"57a8d6f9e3832887db18ea6071118736"}
-https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_ott.mpd|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20CPH1819%20Build%2FQP1A.190711.020%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F135.0.7049.99%20Mobile%20Safari%2F537.36
 
 ## ============================================================
 ##  Radio Malaysia
